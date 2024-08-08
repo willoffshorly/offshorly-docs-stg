@@ -86,4 +86,6 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 - [query_validator.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/query_validator.md)
 
 - [registartion_react.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/registartion_react.md)
+
+- [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test.md)
   
