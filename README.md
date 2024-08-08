@@ -83,8 +83,6 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [login_ui_react.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/login_ui_react.md)
 
-- [printing.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/printing.md)
-
 - [query_validator.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/query_validator.md)
 
 - [registartion_react.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/registartion_react.md)
