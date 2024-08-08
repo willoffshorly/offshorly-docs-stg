@@ -2,13 +2,13 @@ import { execSync } from 'child_process';
 
 async function getDeletedFiles(){
   try {
-    // compare the current HEAD with the last commit on the main branch before the push
-    const deletedFiles = execSync(
-      'git diff --name-status origin/main...HEAD | grep "^D" | awk \'{print $2}\'',
-    )
-      .toString()
+    // Compare the current HEAD with the last commit on the main branch before the push
+    const diffOutput = execSync('git diff --name-status origin/main...HEAD').toString();
+    const deletedFiles = diffOutput
       .split('\n')
-      .filter((filePath) => filePath.length > 0);
+      .filter(line => line.startsWith('D'))
+      .map(line => line.split('\t')[1])
+      .filter(filePath => filePath.length > 0);
     return deletedFiles;
   } catch (error) {
     console.error('Error getting deleted files:', error);
@@ -40,6 +40,5 @@ async function run(){
   }
 }
 
-const deletedFilesOfDev = await getDeletedFiles();
-console.log(deletedFilesOfDev);
-
+const deletesFile = await getDeletedFiles();
+console.log(deletesFile);
