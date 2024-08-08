@@ -19,7 +19,7 @@ async function getDeletedFiles() {
 }
 
 async function sendDeletedFiles(deletedFiles: any) {
-  const endpoint = 'http://localhost:3000/api/delete-markdown'
+  const endpoint = 'https://kb-backend-dev.onrender.com/api/delete-markdown'
   try {
     const response = await fetch(endpoint, {
       method: 'DELETE',
