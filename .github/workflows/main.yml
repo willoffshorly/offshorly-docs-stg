@@ -32,6 +32,9 @@ jobs:
       - name: 'Build'
         run: pnpm build
 
+      - name: 'Check for deleted files'
+        run: node dist/scripts/checkDeletedFile.js
+        
       - name: 'Rebuild README.md'
         run: 'node dist/scripts/buildReadme.js'
 
