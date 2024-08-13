@@ -29,6 +29,15 @@ jobs:
       - name: 'Install dependencies'
         run: pnpm install
 
+      - name: 'Check for GitHub secret access'
+        run: |
+          if [ -z "${{ secrets.CODEBASE_KB_API_KEY }}" ]; then
+            echo "Required secret CODEBASE_KB_API_KEY is not set."
+            exit 1
+          else
+            echo "Secret CODEBASE_KB_API_KEY is set. Proceeding with workflow."
+          fi
+
       - name: 'Build'
         run: pnpm build
 
