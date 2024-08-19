@@ -90,9 +90,9 @@ async function extractMdContent(filePath : any) {
     // console.log("=================================================================")
 
     return {
-        title: title || "",
-        description: description || "",
-        author: author || ""
+        title: title || null,
+        description: description || null,
+        author: author || null
     };
 }
 
