@@ -90,4 +90,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 - [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test.md)
 
 - [test_security.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test_security.md)
+
+#### web_entry
+
+- [Authentication in Expressqweraa.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/Authentication%20in%20Expressqweraa.md)
   
