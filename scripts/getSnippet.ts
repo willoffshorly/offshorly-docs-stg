@@ -97,8 +97,15 @@ async function extractMdContent(filePath : any) {
 }
 
 
-async function processMarkdownFiles(directory:any) {
-  const mdFiles = await getMdPaths(directory,[]);
+async function processMarkdownFiles(directory: any) {
+  const mdFiles = await getMdPaths(directory, []);
+
+  // filter out files in the "web_entry" and "ai_generated" directories
+  // const filteredMdFiles = mdFiles.filter(filePath => {
+    
+  //   return !filePath.includes('web_entry') && !filePath.includes('ai_generated');
+  // });
+
   const filesData = [];
 
   for (const filePath of mdFiles) {
@@ -120,7 +127,8 @@ async function processMarkdownFiles(directory:any) {
 
 async function main() {
   const directory = "content"; // Replace with your directory path
-  
+  const apiKey = process.env.CODEBASE_KB_API_KEY;
+
   try {
     const filesData = await processMarkdownFiles(directory);
     const output = { files: filesData };
@@ -128,7 +136,8 @@ async function main() {
     const response = await fetch('https://kb-backend-dev.onrender.com/api/markdown', {   // https://kb-backend-ompt.onrender.com/api/code_snippet render
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${apiKey}` // add API key here
       },
       body: JSON.stringify(output)
     });

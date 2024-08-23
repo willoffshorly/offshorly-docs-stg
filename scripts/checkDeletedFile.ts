@@ -20,10 +20,14 @@ async function getDeletedFiles() {
 
 async function sendDeletedFiles(deletedFiles: any) {
   const endpoint = 'https://kb-backend-dev.onrender.com/api/delete-markdown'
+  const apiKey = process.env.CODEBASE_KB_API_KEY;
   try {
     const response = await fetch(endpoint, {
       method: 'DELETE',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${apiKey}`
+       },
       body: JSON.stringify({ deleted: deletedFiles }),
     })
     const data = await response.json()
