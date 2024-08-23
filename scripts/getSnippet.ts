@@ -99,13 +99,6 @@ async function extractMdContent(filePath : any) {
 
 async function processMarkdownFiles(directory: any) {
   const mdFiles = await getMdPaths(directory, []);
-
-  // filter out files in the "web_entry" and "ai_generated" directories
-  // const filteredMdFiles = mdFiles.filter(filePath => {
-    
-  //   return !filePath.includes('web_entry') && !filePath.includes('ai_generated');
-  // });
-
   const filesData = [];
 
   for (const filePath of mdFiles) {
@@ -113,12 +106,23 @@ async function processMarkdownFiles(directory: any) {
     const { title, description, author } = await extractMdContent(filePath);
     // Replace backslashes with forward slashes
     const normalizedPath = filePath.replace(/\\/g, '/');
+
+    // Determine the source based on the directory
+    let source = "INTERNAL"; // Default source
+    if (normalizedPath.includes('/ai_generated/')) {
+      console.log("AI generated file found");
+      source = "AI";
+    } else if (normalizedPath.includes('/web_entry/')) {
+      console.log("Web entry file found");
+      source = "EXTERNAL";
+    }
+
     filesData.push({
       title: title,
       desc: description,
       path: normalizedPath,
       author: author,
-      source: "INTERNAL" // You can modify this as needed
+      source: source // Set source based on directory
     });
   }
 
