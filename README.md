@@ -94,4 +94,10 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 #### ai_generated
 
 - [Authentication in Express (18a04c67-4a38-4462-8d0f-dd36a268629c).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/Authentication%20in%20Express%20(18a04c67-4a38-4462-8d0f-dd36a268629c).md)
+
+- [sha.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/sha.md)
+
+#### web_entry
+
+- [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/test.md)
   
