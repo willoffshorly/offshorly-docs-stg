@@ -127,7 +127,8 @@ async function processMarkdownFiles(directory: any) {
 
 async function main() {
   const directory = "content"; // Replace with your directory path
-  
+  const apiKey = process.env.CODEBASE_KB_API_KEY;
+
   try {
     const filesData = await processMarkdownFiles(directory);
     const output = { files: filesData };
@@ -135,7 +136,8 @@ async function main() {
     const response = await fetch('https://kb-backend-dev.onrender.com/api/markdown', {   // https://kb-backend-ompt.onrender.com/api/code_snippet render
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${apiKey}` // add API key here
       },
       body: JSON.stringify(output)
     });

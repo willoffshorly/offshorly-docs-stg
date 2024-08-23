@@ -42,6 +42,8 @@ jobs:
         run: pnpm build
 
       - name: 'Check for deleted files'
+        env: 
+          CODEBASE_KB_API_KEY: ${{ secrets.CODEBASE_KB_API_KEY }}
         run: node dist/scripts/checkDeletedFile.js
         
       - name: 'Rebuild README.md'
@@ -76,4 +78,6 @@ jobs:
           git push origin main
 
       - name: 'Run getSnippet.js script'
+        env: 
+          CODEBASE_KB_API_KEY: ${{ secrets.CODEBASE_KB_API_KEY }}
         run: node dist/scripts/getSnippet.js
