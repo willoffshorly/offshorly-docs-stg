@@ -101,14 +101,14 @@ async function processMarkdownFiles(directory: any) {
   const mdFiles = await getMdPaths(directory, []);
 
   // filter out files in the "web_entry" and "ai_generated" directories
-  const filteredMdFiles = mdFiles.filter(filePath => {
+  // const filteredMdFiles = mdFiles.filter(filePath => {
     
-    return !filePath.includes('web_entry') && !filePath.includes('ai_generated');
-  });
+  //   return !filePath.includes('web_entry') && !filePath.includes('ai_generated');
+  // });
 
   const filesData = [];
 
-  for (const filePath of filteredMdFiles) {
+  for (const filePath of mdFiles) {
     console.log(`Processing file: ${filePath}`);
     const { title, description, author } = await extractMdContent(filePath);
     // Replace backslashes with forward slashes
