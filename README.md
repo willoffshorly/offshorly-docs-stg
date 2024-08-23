@@ -90,4 +90,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 - [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test.md)
 
 - [test_security.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test_security.md)
+
+#### ai_generated
+
+- [Authentication in Express (18a04c67-4a38-4462-8d0f-dd36a268629c).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/Authentication%20in%20Express%20(18a04c67-4a38-4462-8d0f-dd36a268629c).md)
   
