@@ -99,6 +99,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 #### web_entry
 
+- [Authentication in Express with ch3 (8f8c630b-2bdd-4325-973d-1247836242c4).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/Authentication%20in%20Express%20with%20ch3%20(8f8c630b-2bdd-4325-973d-1247836242c4).md)
+
 - [Authentication in Express with ch3 (a84c5d8e-1460-4745-80c9-ab9a3ccebd7d).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/Authentication%20in%20Express%20with%20ch3%20(a84c5d8e-1460-4745-80c9-ab9a3ccebd7d).md)
 
 - [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/test.md)
