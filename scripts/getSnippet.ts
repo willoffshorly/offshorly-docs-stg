@@ -157,7 +157,7 @@ async function main() {
     )
 
     if (!response.ok) {
-      throw new Error(`Failed to send data: ${response}`)
+      throw new Error(`Failed to send data: ${response.json()}`)
     }
 
     console.log('Data sent successfully.')
