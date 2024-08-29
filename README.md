@@ -89,6 +89,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test.md)
 
+- [test_france.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test_france.md)
+
 - [test_security.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test_security.md)
 
 #### ai_generated
