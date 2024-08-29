@@ -75,6 +75,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [Implementing Real-Time Data Processing with Apache Kafka.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Implementing%20Real-Time%20Data%20Processing%20with%20Apache%20Kafka.md)
 
+- [Print in Javascript.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Print%20in%20Javascript.md)
+
 - [Setting Up a Full-Stack Application with MERN.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Setting%20Up%20a%20Full-Stack%20Application%20with%20MERN.md)
 
 #### Test
@@ -88,6 +90,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 - [registartion_react.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/registartion_react.md)
 
 - [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test.md)
+
+- [test_france.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test_france.md)
 
 - [test_security.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test_security.md)
 
@@ -106,7 +110,4 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 - [Authentication in Express with ch3 (a84c5d8e-1460-4745-80c9-ab9a3ccebd7d).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/Authentication%20in%20Express%20with%20ch3%20(a84c5d8e-1460-4745-80c9-ab9a3ccebd7d).md)
 
 - [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/test.md)
-
-- [test_france.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test_france.md)
-
   
