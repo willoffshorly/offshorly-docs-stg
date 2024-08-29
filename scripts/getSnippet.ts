@@ -161,6 +161,7 @@ async function main() {
     }
 
     console.log('Data sent successfully.')
+    console.log(response.json())
   } catch (error) {
     console.error(error)
     process.exit(1)
