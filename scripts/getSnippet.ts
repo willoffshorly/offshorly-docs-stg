@@ -157,12 +157,13 @@ async function main() {
     )
 
     if (!response.ok) {
-      throw new Error(`Failed to send data: ${response.statusText}`)
+      throw new Error(`Failed to send data: ${response}`)
     }
 
     console.log('Data sent successfully.')
   } catch (error) {
-    console.error('An error occurred:', error)
+    console.error(error)
+    process.exit(1)
   }
 }
 
