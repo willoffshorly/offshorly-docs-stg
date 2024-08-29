@@ -156,12 +156,14 @@ async function main() {
       },
     )
 
+    const resObj = await response.json()
+
     if (!response.ok) {
-      throw new Error(`Failed to send data: ${response.json()}`)
+      throw new Error(`Failed to send data: ${resObj}`)
     }
 
     console.log('Data sent successfully.')
-    console.log(response.json())
+    console.log(resObj)
   } catch (error) {
     console.error(error)
     process.exit(1)
