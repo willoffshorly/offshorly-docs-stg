@@ -75,6 +75,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [Implementing Real-Time Data Processing with Apache Kafka.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Implementing%20Real-Time%20Data%20Processing%20with%20Apache%20Kafka.md)
 
+- [Print in Javascript.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Print%20in%20Javascript.md)
+
 - [Setting Up a Full-Stack Application with MERN.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Project/Setting%20Up%20a%20Full-Stack%20Application%20with%20MERN.md)
 
 #### Test
