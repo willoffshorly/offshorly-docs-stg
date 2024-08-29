@@ -99,6 +99,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 
 - [Authentication in Express (18a04c67-4a38-4462-8d0f-dd36a268629c).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/Authentication%20in%20Express%20(18a04c67-4a38-4462-8d0f-dd36a268629c).md)
 
+- [Authentication in Express (de9c3769-3898-45ab-aab6-2af6a8ce5608).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/Authentication%20in%20Express%20(de9c3769-3898-45ab-aab6-2af6a8ce5608).md)
+
 - [Authentication in Express (e325132b-1fd7-41e9-bc6d-7d8fde4843df).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/Authentication%20in%20Express%20(e325132b-1fd7-41e9-bc6d-7d8fde4843df).md)
 
 - [sha.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/sha.md)
