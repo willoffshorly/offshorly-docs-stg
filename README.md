@@ -94,26 +94,4 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 - [test_france.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test_france.md)
 
 - [test_security.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/Test/test_security.md)
-
-#### ai_generated
-
-- [Authentication in Express (18a04c67-4a38-4462-8d0f-dd36a268629c).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/Authentication%20in%20Express%20(18a04c67-4a38-4462-8d0f-dd36a268629c).md)
-
-- [Authentication in Express (9de58bbc-7f11-4e1e-a2c0-16f25fab44fb).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/Authentication%20in%20Express%20(9de58bbc-7f11-4e1e-a2c0-16f25fab44fb).md)
-
-- [Authentication in Express (de9c3769-3898-45ab-aab6-2af6a8ce5608).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/Authentication%20in%20Express%20(de9c3769-3898-45ab-aab6-2af6a8ce5608).md)
-
-- [Authentication in Express (e325132b-1fd7-41e9-bc6d-7d8fde4843df).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/Authentication%20in%20Express%20(e325132b-1fd7-41e9-bc6d-7d8fde4843df).md)
-
-- [sha.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/sha.md)
-
-#### web_entry
-
-- [Authentication in Express Testing Thu (ffa27f59-8fd4-45ea-82c6-4eda1305410f).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/Authentication%20in%20Express%20Testing%20Thu%20(ffa27f59-8fd4-45ea-82c6-4eda1305410f).md)
-
-- [Authentication in Express with ch3 (8f8c630b-2bdd-4325-973d-1247836242c4).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/Authentication%20in%20Express%20with%20ch3%20(8f8c630b-2bdd-4325-973d-1247836242c4).md)
-
-- [Authentication in Express with ch3 (a84c5d8e-1460-4745-80c9-ab9a3ccebd7d).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/Authentication%20in%20Express%20with%20ch3%20(a84c5d8e-1460-4745-80c9-ab9a3ccebd7d).md)
-
-- [test.md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/test.md)
   
