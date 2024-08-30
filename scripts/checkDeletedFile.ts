@@ -19,7 +19,7 @@ async function getDeletedFiles() {
 }
 
 async function sendDeletedFiles(deletedFiles: any) {
-  const endpoint = 'https://kb-backend-dev.onrender.com/api/delete-markdown'
+  const endpoint = 'https://kb-backend-stg.onrender.com/api/delete-markdown'
   const apiKey = process.env.CODEBASE_KB_API_KEY;
   try {
     const response = await fetch(endpoint, {
