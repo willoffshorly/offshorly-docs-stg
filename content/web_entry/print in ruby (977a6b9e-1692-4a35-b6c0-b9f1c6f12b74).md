@@ -1,0 +1,85 @@
+# Printing in Ruby
+
+Ruby provides several methods for outputting text to the console. This document covers the most common ways to print in Ruby, including `puts`, `print`, `p`, string interpolation, and formatting output.
+
+## Using `puts`
+
+The `puts` method is the most commonly used method for printing in Ruby. It adds a newline character at the end of the output.
+
+```ruby
+puts "Hello, World!"
+```
+
+Output:
+
+```
+Hello, World!
+```
+
+## Using `print`
+
+The `print` method is similar to `puts`, but it does not add a newline character at the end.
+
+```ruby
+print "Hello, "
+print "World!"
+```
+
+Output:
+
+```
+Hello, World!
+```
+
+## Using `p`
+
+The `p` method is useful for debugging as it shows a more "raw" representation of objects.
+
+```ruby
+p "Hello, World!"
+p [1, 2, 3]
+```
+
+Output:
+
+```
+"Hello, World!"
+[1, 2, 3]
+```
+
+## Using string interpolation
+
+You can use string interpolation to include variables or expressions within a string:
+
+```ruby
+name = "Alice"
+age = 30
+puts "My name is #{name} and I'm #{age} years old."
+```
+
+Output:
+
+```
+My name is Alice and I'm 30 years old.
+```
+
+## Formatting output
+
+For more complex formatting, you can use the `printf` method or string formatting:
+
+```ruby
+# Using printf
+printf("Pi is approximately %.2f\n", Math::PI)
+
+# Using string formatting
+puts "Pi is approximately %.2f" % Math::PI
+```
+
+Output:
+
+```
+Pi is approximately 3.14
+Pi is approximately 3.14
+```
+
+These methods provide various ways to print output in Ruby, allowing you to choose the most appropriate one for your specific needs.
