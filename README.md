@@ -100,4 +100,8 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 - [printing (24b6ed2f-285b-4cf0-91cb-dfe1541e88f1).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/printing%20(24b6ed2f-285b-4cf0-91cb-dfe1541e88f1).md)
 
 - [test_JR (7b2af68e-8a9f-40fa-acb4-f78a393c022f).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/ai_generated/test_JR%20(7b2af68e-8a9f-40fa-acb4-f78a393c022f).md)
+
+#### web_entry
+
+- [print in java (f8e3a780-6db7-4e30-a70c-7f19ebc28420).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/print%20in%20java%20(f8e3a780-6db7-4e30-a70c-7f19ebc28420).md)
   
