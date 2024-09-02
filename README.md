@@ -104,4 +104,6 @@ Note: **DO NOT COMMIT THE README FILE**. The readme file will be overwritten onc
 #### web_entry
 
 - [print in java (f8e3a780-6db7-4e30-a70c-7f19ebc28420).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/print%20in%20java%20(f8e3a780-6db7-4e30-a70c-7f19ebc28420).md)
+
+- [print ruby (4f702691-3191-40fc-a27a-73524c7a4d48).md](https://github.com/jasonoffshorlydev/offshorly-docs/tree/main/content/web_entry/print%20ruby%20(4f702691-3191-40fc-a27a-73524c7a4d48).md)
   
